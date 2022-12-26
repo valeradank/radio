@@ -36,24 +36,30 @@ public class Radio {
 
         }
     }
+
     public void nextStation() {
         if (station != 9) {
             station = station + 1;
+        } else {
+            station = 0;
+
         }
     }
+
     public void backStation() {
         if (station != 0) {
             station--;
 
-        }else {
+        } else {
             station = 9;
         }
     }
+
     public void backVolume() {
         if (volume != 0) {
             volume--;
 
-        }else {
+        } else {
             volume = 9;
         }
     }

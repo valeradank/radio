@@ -115,7 +115,7 @@ public class RadioTest {
         Radio radio = new Radio();
         radio.setStation(9);
         radio.nextStation();
-        int expected = 9;
+        int expected = 0;
         int actual = radio.getStation();
         Assertions.assertEquals(expected, actual);
     }
