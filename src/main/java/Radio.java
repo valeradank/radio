@@ -41,4 +41,20 @@ public class Radio {
             station = station + 1;
         }
     }
+    public void backStation() {
+        if (station != 0) {
+            station--;
+
+        }else {
+            station = 9;
+        }
+    }
+    public void backVolume() {
+        if (volume != 0) {
+            volume--;
+
+        }else {
+            volume = 9;
+        }
+    }
 }
