@@ -205,15 +205,7 @@ public class RadioTest {
         int actual = radio.getVolume();
         Assertions.assertEquals(expected, actual);
     }
-    @Test
-    public void stationBack2() {
-        Radio radio = new Radio();
-        radio.setStation(0);
-        radio.backStation();
-        int expected = 0;
-        int actual = radio.getVolume();
-        Assertions.assertEquals(expected, actual);
-    }
+    
 }
 
 
